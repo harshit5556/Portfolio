@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO/</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel ="preconnect" href ="https://fonts.googleapis.com">
+    <link rel="preconnect" href ="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"rel="stylesheet">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <header id="header">
+        <nav>
+            <div class="left">Harshit's Portfolio</div>
+             <div class="right">
+                <ul>
+                    <li><a href ="#header">Home</a></li>
+                    <li><a href ="#about">About</a></li>
+                    <li><a href ="#service">Services</a></li>
+                    <li><a href ="#Portfolio">Project</a></li>
+                    <li><a href ="#contact">Contact Me</a></li>
+                </ul>
+             </div>
+        </nav>
+    </header>
+    <main>
+        <section class ="firstsection">
+         <div class="leftsection">
+            Hi, My name is <span class="purple">Harshit</span>
+            <div>and I am a Passionate</div>
+            <span id="element"></span>
+           
+         </div>
+         <div class ="rightsection">
+        <img src="developer.png" alt="">
+         </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+          <span class="text-gray">What i have done so far</span>  
+            <h1>Work Experience</h1>
+            <!--we change their name like box to horizontal line-->
+            <div class="vertical-box">
+                <div class="vertical">
+                    <img class="image-top" src="R.png" alt="">
+                    <div class="vertical-title">
+                        Frontend developer (2023-2024)
+                    </div>
+                    <div class="vertical-desc">
+                        Designed and developed various frontend web applications using HTML, CSS, JavaScript, and React, including a weather app, parallax-effect website, shopping cart, random GIF generator, and portfolio website. Focused on responsive design, interactive UI/UX, and optimized performance across devices. 
+                        Implemented dynamic features using APIs, state management, and modern web technologies."
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="N.png" alt="">
+                    <div class="vertical-title">
+                        Backend developer (2023-2024)
+                    </div>
+                    <div class="vertical-desc">
+                        Developed a Project using Node.js and Express, with a focus on building scalable RESTful APIs.
+                        Integrated MongoDB for database management, implemented user authentication, data validation, and secure authorization protocols. 
+                        Optimized server-side logic for performance and ensured efficient handling of requests, enhancing application reliability
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="N.png" alt="">
+                    <div class="vertical-title">
+                        Full Stack Web-developer (2024-2025)
+                    </div>
+                    <div class="vertical-desc">
+                        Developed a full-stack web application using React, Node.js, Express, and MongoDB. 
+                        Implemented key features including user authentication, dynamic routing, and a responsive front-end with seamless integration to back-end APIs for data management and real-time updates.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="d1.png" alt="">
+                    <div class="vertical-title">
+                        Data Structure and Algorithum (2024-2025)
+                    </div>
+                    <div class="vertical-desc">
+                        I am solved over 700 questions across different coding platforms, including 400+ questions on LeetCode, where he holds a rating of 1457.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="co.png" alt="">
+                    <div class="vertical-title">
+                     Compactative Programmer (2025-2026)
+                    </div>
+                    <div class="vertical-desc">
+                        I am  a competitive programmer on Codeforces with a rating of 1146 and has solved over 200 questions on the platform.
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Data Structure','Competitive Coder','Frontend Developer','Backend Developer ','Full Stack Web Developer'],
+      typeSpeed: 50,
+    });
+  </script>
+  <hr>
+
+   <!-- ABOUT-->
+  <div id ="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="d1.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Passionate software developer pursuing B.Tech at NIT Bhopal with a strong interest in full-stack development and competitive programming. 
+                    Experienced in building dynamic web applications and solving complex problems across various coding platforms like Codeforces and LeetCode. 
+                    Always eager to learn new technologies and contribute to impactful projects, with a focus on delivering efficient and scalable solutions
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-link active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-link" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-link" onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Frontend Developer</span><br>Designing Web interfaces</li>
+                        <li><span>Web Developer</span><br>Website Development</li>
+                        <li><span>Data Structure</span><br>700+ Problem Solving Different Coding Platform like LeetCode, Codeforces and Codechef.</li>
+                        <li><span>Language</span><br>C++, HTML, Tailwind-CSS, JavaScript, React, Node.js, MongoDB, Express.js</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2024-Current</span><br>B.Tech at Maulana Azad National Institute of Technology</li>
+                        <li><span>Web-Development</span><br>Make Different Project</li>
+                        <li><span>2023-2024</span><br>Make Projects like Shopping-Cart,Generate Random GIF,Weather APP and other projects</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2022-2026</span><br>Maulana Azad National Institute of Technology</li>
+                        <li><span>B.Tech</span><br>Cgpa:8.06</li>
+                        <li><span>2021</span><br>Saraswati Vidya Mandir </li>
+                        <li><span>12th CBSE(PCM)</span><br>Percentage:89% </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  <hr>
+                  <!--SERVICE-->
+  <div id ="service">
+    <div class="container">
+        <h1 class="sub-title">MY Services</h1>
+        <div class="service-list">
+            <div>
+                <i class="material-icons">developer_mode</i>
+
+                <h2>Frontend Developer</h2>
+                <p>Designed and developed various frontend web applications using HTML, CSS, JavaScript, and React, including a weather app, parallax-effect website, shopping cart, random GIF generator, and portfolio website. 
+                    Focused on responsive design, interactive UI/UX, and optimized performance across devices. 
+                    Implemented dynamic features using APIs, state management, and modern web technologies.</p>
+                 <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="material-icons">computer</i>
+                <h2>Backend Developer</h2>
+                <p>Developed a Project using Node.js and Express, with a focus on building scalable RESTful APIs.
+                     Integrated MongoDB for database management, implemented user authentication, data validation, and secure authorization protocols. 
+                    Optimized server-side logic for performance and ensured efficient handling of requests, enhancing application reliability.</p>
+                 <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="material-icons">terminal</i>
+
+                <h2>Data Structure</h2>
+                <p>I am solved over 700 questions across different coding platforms, including 400+ questions on LeetCode, where he holds a rating of 1457 
+                    and also I am a competitive programmer on Codeforces and Codechef with a rating of 1146 and has solved over 200 questions on the platform.</p>
+                 <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+  </div>
+  <hr>
+  <!--PORTFOLIO-->
+  <div id="Portfolio">
+    <div class="container">
+        <h1 class="sub-title">MY Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="shopp.png">
+                <div class="layer">
+                    <h3>Shopping-Cart App</h3>
+                    <p>This project is a Shopping Cart web application built using ReactJS, React-router, Redux, and Tailwind CSS for
+                    styling.
+                    Feature: Add/Remove items into cart.
+                    Maintain global state using reducer and using Toast to show add and removal items.</p>
+                   <a href="https://github.com/harshit5556/Shopping-cart"><i class="material-icons">link</i></a>
+                    </div>
+            </div>
+            <div class="work">
+                <img src="w.png">
+                <div class="layer">
+                    <h3>Weather App</h3>
+                    <p>This Website give information about condition of weather in your location or other location.
+                        this web application built using HTML,Tailwind CSS,Javascript and React by using public API.
+                    </p>
+                   <a href="https://stellar-alfajores-db1a03.netlify.app/"><i class="material-icons">link</i></a>
+                    </div>
+            </div>
+            <div class="work">
+                <img src="mountain.png">
+                <div class="layer">
+                    <h3>Parallex-Effect</h3>
+                    <p> This parallax-effect website leverages modern web technologies to create,multi-layered design,giving a 3D feel to the visuals. 
+                        Scroll down to watch the magic unfold as images and text shift seamlessly, enhancing the depth and interaction of the website.</p>
+                   <a href="https://idyllic-pixie-954732.netlify.app/"><i class="material-icons">link</i></a>
+                    </div>
+            </div>
+        </div>
+        <a href="https://github.com/harshit5556"class = "btn">See more</a>
+    </div>
+  </div>
+<hr>
+  <!-----               CONTACT         ------>
+  <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+               <h1 class="sub-title">Contact Me</h1>
+               <p><i class="fas fa-paper-plane"></i>ht8840641186@gmail.com</p>
+               <p><i class="fas fa-phone-square-alt"></i>8840641186</p>
+               <div class="social-icon">
+                <a href="https://www.linkedin.com/in/harshit-tiwari-b30aa9286/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/harshit5556"><i class="fab fa-github"></i></a>
+                <a href="https://codeforces.com/profile/harshit_NIT-B30"><i class="fas fa-code"></i></a>
+                    <a href="https://leetcode.com/u/ht8840641186"><i class="fas fa-code"></i></a>
+               </div>
+                 <a href="resume.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+              <form>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type ="submit" class="btn btn2">Submit</button>
+              </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+       <p>Created by Harshit | 2024 All Rights Reserved</p>
+    </div>
+  </div>
+ 
+  <script>
+    var tablinks =document.getElementsByClassName("tab-link");
+    var tabcontents =document.getElementsByClassName("tab-contents");
+   function opentab(tabname){
+for(tablink of tablinks){
+    tablink.classList.remove("active-link")
+}
+for(tabcontent of tabcontents){
+    tabcontent.classList.remove("active-tab")
+}
+event.currentTarget.classList.add("active-link");
+document.getElementById(tabname).classList.add("active-tab");   
+}
+
+  </script>
+</body>
+</html>
