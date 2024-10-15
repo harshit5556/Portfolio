@@ -24,7 +24,9 @@
                     <li><a href ="#service">Services</a></li>
                     <li><a href ="#Portfolio">Project</a></li>
                     <li><a href ="#contact">Contact Me</a></li>
+                      <i class="fas fa-times" onclick="closemenu()"></i>
                 </ul>
+                 <i class="fas fa-bars" onclick="openmenu()"></i>
              </div>
         </nav>
     </header>
@@ -217,12 +219,12 @@
                     </div>
             </div>
             <div class="work">
-                <img src="mountain.png">
+                <img src="pass.png">
                 <div class="layer">
-                    <h3>Parallex-Effect</h3>
-                    <p> This parallax-effect website leverages modern web technologies to create,multi-layered design,giving a 3D feel to the visuals. 
-                        Scroll down to watch the magic unfold as images and text shift seamlessly, enhancing the depth and interaction of the website.</p>
-                   <a href="https://idyllic-pixie-954732.netlify.app/"><i class="material-icons">link</i></a>
+                    <h3>Password Generator</h3>
+                    <p>Developed a responsive web-based random password generator that allows users to create secure passwords of customizable lengths. Implemented options to include/exclude uppercase, lowercase letters, numbers, and symbols based on user preferences. 
+                        Incorporated "Copy to Clipboard" functionality, enhancing user experience for quick copying of generated passwords.</p>
+                   <a href="https://eloquent-cocada-058f8c.netlify.app/"><i class="material-icons">link</i></a>
                     </div>
             </div>
         </div>
@@ -275,6 +277,16 @@ event.currentTarget.classList.add("active-link");
 document.getElementById(tabname).classList.add("active-tab");   
 }
 
+  </script>
+     <!-- this is for menu feature-->
+  <script>
+    var sidemenu =document.getElementById("sidemenu");
+    function openmenu() {
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right ="-200px";
+    }
   </script>
 </body>
 </html>
